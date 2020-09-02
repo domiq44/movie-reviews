@@ -1,0 +1,32 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>animesh371</groupId>
+	<artifactId>movie-reviews</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<developers>
+		<developer>
+			<name>Animesh Gaitonde</name>
+		</developer>
+	</developers>
+	<description>Hexagonal Architecture - Principles and Practical Example in Java</description>
+	<url>https://itnext.io/hexagonal-architecture-principles-practical-example-in-java-364bb2e50075</url>
+
+	<properties>
+		<maven.compiler.source>1.8</maven.compiler.source>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.requirementsascode</groupId>
+			<artifactId>requirementsascodecore</artifactId>
+			<version>1.2.4</version>
+		</dependency>
+	</dependencies>
+
+</project>
